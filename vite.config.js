@@ -11,7 +11,7 @@ export default defineConfig({
     vueDevTools(),
   ],
   base: process.env.NODE_ENV === 'production' 
-  ? '/photo_map/'  // 替换为你的仓库名称
+  ? '/'
   : '/',
   resolve: {
     alias: {
